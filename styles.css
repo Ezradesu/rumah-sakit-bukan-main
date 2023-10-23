@@ -1,0 +1,62 @@
+
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.headerservice{
+    display: flex;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.latest{
+    display: flex;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #249000;
+    border-radius: 10px;
+}
+
+
+.cursor{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    transition: 0.1s;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
+
+
+.head:hover ~ .cursor{
+    transform: scale(15);
+}

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>SehatBanget!</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold text-success" href="#">SehatBanget!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fw-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a  class="nav-link" href="doctors.html">Doctors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Medicine</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Specialist
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Emergency Medicine</a></li>
+                  <li><a class="dropdown-item" href="#">Surgeon</a></li>
+                  <li><a class="dropdown-item" href="#">Dermatologist</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Cari selengkapnya</a></li>
+                </ul>
+              </li>
+             <button type=" button" class="btn btn-danger">Contact</button>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2 rounded-pill" type="search" placeholder="Cari doktermu disini!" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <main>
+    <!-- ini buat slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/carousel/q1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>PRIORITAS</h5>
+              <p>Kesehatan anda merupakan prioritas kami.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/carousel/q2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>PERCAYA</h5>
+              <p>Kepercayaan anda merupakan kehormatan kami.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/carousel/q3.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Melayani</h5>
+              <p>Melayani anda merupakan kebahagiaan bagi kami.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="service mx-5">
+        <h1 class="headerservice text-decoration-underline">Centre of Our Excellence</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="facial">
+              <div class="card-body">
+                <h5 class="card-title">Aesthetic Clinic</h5>
+                <p class="card-text">Klinik Estetik adalah tempat di mana pasien mencari perawatan medis untuk meningkatkan penampilan fisik mereka. Klinik ini menyediakan berbagai prosedur dan layanan yang bertujuan untuk meningkatkan estetika tubuh, kulit, dan wajah pasien</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1606811951341-756fdd437682?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="dentist">
+              <div class="card-body">
+                <h5 class="card-title">Dental Specialist</h5>
+                <p class="card-text">Seorang Dental Spesialis adalah seorang dokter gigi yang telah menerima pelatihan lanjutan dalam bidang tertentu dalam kedokteran gigi. Mereka ahli dalam mengatasi masalah gigi, mulut, dan rahang yang lebih kompleks.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1597764690523-15bea4c581c9?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="orthopedic">
+              <div class="card-body">
+                <h5 class="card-title">Orthopedic Centre</h5>
+                <p class="card-text">Orthopedic Spesialis adalah seorang dokter yang memiliki keahlian dalam diagnosis dan pengobatan masalah sistem muskuloskeletal, seperti tulang, sendi, otot, dan ligamen. Mereka merawat cedera, gangguan, dan penyakit yang memengaruhi sistem ini.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1651083230817-481f3c3895a4?auto=format&fit=crop&q=80&w=1632&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="midwifery">
+              <div class="card-body">
+                <h5 class="card-title">Kebidanan</h5>
+                <p class="card-text">Seorang bidan adalah profesional perawatan kesehatan yang terlatih khusus dalam merawat wanita selama kehamilan, persalinan, dan pasca persalinan. Mereka memberikan perawatan prenatal, membantu selama persalinan, dan memberikan perawatan pasca persalinan.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <h1 class="headerservice text-decoration-underline">Latest Event</h1>
+        <div class="latest gap-3">
+          <div class="card" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1615631648086-325025c9e51e?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="vaksin">
+            <div class="card-body">
+              <h5 class="card-title">vaksinasi COVID-19</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet aliquam numquam culpa eligendi doloremque sunt quasi laudantium ratione perspiciatis officiis..</p>
+              <a href="#" class="btn btn-success">Selengkapnya!</a>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="https://images.unsplash.com/photo-1536856136534-bb679c52a9aa?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="vaksin">
+            <div class="card-body">
+              <h5 class="card-title">Donor darah bersama PMI</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet aliquam numquam culpa eligendi doloremque sunt quasi laudantium ratio..</p>
+              <a href="#" class="btn btn-success">Selengkapnya!</a>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="https://wallpapers.com/images/hd/doctor-johnny-sins-6vleyqyzdu5tcn5c.jpg" class="card-img-top" alt="vaksin">
+            <div class="card-body">
+              <h5 class="card-title">DocTalks bersama Dr.Sins, M.S., Sp.GK</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed laborum excepturi consequuntur laudantium quae ab iste esse aliquam</p>
+              <a href="#" class="btn btn-success">Selengkapnya!</a>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+
+        </div>
+         
+      </div>
+
+    
+        </div>
+        
+        
+      </div>
+      
+
+      
+     
+  </main>
+  <footer>
+    <div style="background-color: rgb(20, 20, 20);">
+      <p style="color: rgb(255, 0, 98);">EzuraDesuWorks</p>
+      <small style="color: rgb(255, 255, 255);">&copy;Copyright by Ezra Raditya. All rights reserved</small>
+    </div>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavEzuraDesuWorksaScr
+    ipt Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
